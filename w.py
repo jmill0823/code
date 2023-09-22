@@ -123,6 +123,6 @@ class ImplementNB:
             print(f"Fold {i + 1} - Accuracy: {accuracy:.3f}, Precision: {precision:.3f}, Recall: {recall:.3f}, F1: {f1:.3f}")
 
 # Main code
-filename = 'script.txt'  # Replace with the path to your file
+filename = 'SMSPamCollection'  # Replace with the path to your file
 classifier = ImplementNB(filename)
 classifier.evaluate()
